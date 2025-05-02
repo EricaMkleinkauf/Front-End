@@ -9,7 +9,7 @@ html, body {
 
 main {
     width: 100%;
-    height: 60%;
+    height: 70%;
     margin-right: 0;
 }
 
@@ -26,14 +26,14 @@ main {
 
 
 .menu-opcoes {
+    text-align: left;
     display: flex;
     word-spacing: 15px;
-    margin: 10px;
+    margin: 2%;
     font-weight: bold;
     position: absolute;
-    top: 10px;
+    top: 1%;
     right: 0;
-    text-align: left;
 }
 
 .menu-opcoes ul {
@@ -45,6 +45,7 @@ main {
     display: inline;
     margin-left: 10px;
     text-align: right;
+    
 }
 
 .menu-opcoes ul li a {
@@ -80,14 +81,13 @@ footer {
     padding: 15px;
     width: 100%;
     box-sizing: border-box;
-    clear: both; /* Garante que ele venha depois de elementos flutuantes */
+    clear: both; 
 }
 
 
 footer ul {
     list-style: none;
     padding: 0;
-    margin: 0;
 }
 
 footer li {
@@ -125,7 +125,7 @@ main, .conteudo {
 
 h2 {
     font-size: 24px;
-    margin: 20px 0 10px;
+    margin: 2% 0 5%;
     color: rgb(9, 9, 103);
 }
 
@@ -134,16 +134,16 @@ h2 {
 .conteudo li,
 h1 {
     font-size: 18px;
-    margin: 7px 0;
+    margin: 2% 0;
     color: #333;
 }
 
 
 .conteudo ul {
     list-style-type: disc;
-    padding-left: 20px;
+    padding-left: 2%;
     margin: 0;
-    max-width: 600px;
+    max-width: 60%;
     text-align: left;
 }
 
@@ -159,5 +159,6 @@ h1 {
 
 
 section {
-    margin-bottom: 30px;
+    margin-bottom: 0.30%;
 }
+

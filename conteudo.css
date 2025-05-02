@@ -25,14 +25,20 @@ main{
     background-color:  rgb(212, 184, 239);
     text-transform: uppercase;
     width: 230px;
-    float: left;
-    
+    float: left; 
 }
 
 .busca h2,
 .busca form,
 .menu-conteudo h2{
 margin: 10px
+}
+
+header,
+.busca,
+.menu-conteudo{
+    width: 100%;
+    width: 100%;
 }
 
 .menu-conteudo li{
@@ -179,7 +185,7 @@ footer a[href*="instagram"] {
   
   #links li {
     display: inline;
-    margin-left: 10px;
+    margin-left: 2%;
   }
 
   #lupa{

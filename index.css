@@ -82,16 +82,16 @@ a {
     text-decoration: none
 }
 
-
 footer {
     background-color: rgb(209, 206, 206);
     color: blue;
     text-align: center;
     padding: 15px;
-    width: 97.5%;
-    margin-top: auto; 
-    position: static;
+    width: 100%;
+    box-sizing: border-box;
+    clear: both;
 }
+
 
 footer ul {
     list-style: none;
@@ -123,7 +123,6 @@ footer a[href*="linkedin"] {
 footer a[href*="instagram"] {
     background-image: url("./img/carbon--logo-instagram.png");
 }
-
 .Aula01, .Blog{
     display: flex;
     background: linear-gradient(rgb(117, 117, 213), #a669dc);
