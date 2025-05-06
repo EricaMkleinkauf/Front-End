@@ -1,7 +1,7 @@
 html, body {
     width: 100%;
     height: 100%;
-    background-color: rgb(247, 236, 222);
+    background-color: rgb(245, 195, 226);
 
 }
 
@@ -19,7 +19,7 @@ main {
     height: 30%;
     margin-right: 0;
     font-weight: bold;
-    background-color: rgb(9, 9, 103);
+    background-color: rgb(100, 44, 101);
     position: relative;
     top: 0;
 }
@@ -75,7 +75,7 @@ img {
 }
 
 footer {
-    background-color: rgb(209, 206, 206);
+    background-color: rgb(231, 167, 187);
     color: blue;
     text-align: center;
     padding: 15px;
